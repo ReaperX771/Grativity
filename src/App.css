@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body{
+    background-color:#141619;
+}
+
+/* Add this to your CSS file (e.g., index.css or a dedicated file) */
+
+/* Base style for the content area */
+.testimonial-content {
+  transition: opacity 0.5s ease-in-out; /* Match transitionDuration in JS */
+}
+
+/* Class to apply for fade-out effect */
+.testimonial-content.fade-out {
+  opacity: 0;
+}
+
+/* Class to apply for fade-in effect (default state when not fading out) */
+.testimonial-content.fade-in {
+  opacity: 1;
+}
